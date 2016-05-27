@@ -1,5 +1,10 @@
 body{
   width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 h1{
@@ -10,6 +15,10 @@ h1{
   font-weight: bold;
   font-style: italic;
   text-transform: uppercase;
+}
+
+.mainContainer{
+  border: 6px solid black;
 }
 
 .imgContainer{
@@ -40,6 +49,11 @@ h1{
   align-items: center;
 }
 
+.timeline p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .timeline:hover{
   font-size: 20px;
 }
@@ -47,12 +61,23 @@ h1{
 .timelineImg{
   max-width: 40%;
   height: 200px;
-  margin-right: 10px;
+  /*margin-right: 10px;*/
 }
 
-@media (min-width: 860px) {
+@media (min-width: 800px) {
+body{
+  background-color: #FFFFCC;
+}
+
 .pull-right{
   flex-direction: row-reverse;
+}
+
+.mainContainer{
+  /*border: 1px solid black;*/
+  border: 6px ridge white;
+  width: 90%;
+  background-color: white;
 }
 
 }
