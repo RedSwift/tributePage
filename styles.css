@@ -1,0 +1,58 @@
+body{
+  width: 100%;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 46px;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImg{
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.contentContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline{
+  margin-top:10px;
+  border: 1px solid black;
+  display:flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline:hover{
+  font-size: 20px;
+}
+
+.timelineImg{
+  max-width: 40%;
+  height: 200px;
+  margin-right: 10px;
+}
+
+@media (min-width: 860px) {
+.pull-right{
+  flex-direction: row-reverse;
+}
+
+}
