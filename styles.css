@@ -64,7 +64,7 @@ h1{
   /*margin-right: 10px;*/
 }
 
-@media (min-width: 800px) {
+@media (min-width: 960px) {
 body{
   background-color: #FFFFCC;
 }
